@@ -1,0 +1,102 @@
+.completed {
+  text-decoration: line-through;
+}
+.toDo__container {
+  background-color: rgba(195, 240, 240, 0.336);
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  width: 100%;
+  height: 100%;
+  gap: 7px;
+  padding: 10px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.remove {
+  color: red;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.btn {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: rgba(195, 240, 240, 0.336);
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(180, 241, 180, 0.562);
+  }
+}
+.inputAndBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.services__container {
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(96, 225, 235);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 20px;
+  border: 1px solid red;
+}
+.service {
+  border-radius: 10px;
+  background-color: rgba(45, 223, 53, 0.336);
+  min-width: 400px;
+  border: 1px solid rgb(255, 94, 0);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+}
+.selected {
+  background-color: rgba(255, 0, 200, 0.336);
+}
+.total {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  gap: 7px;
+}
+.progress__parent {
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.progress {
+  height: 10px;
+  background-color: rgba(56, 245, 71, 0.87);
+  border-radius: 5px;
+}
